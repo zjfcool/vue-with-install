@@ -3,7 +3,7 @@ import { terser } from "rollup-plugin-terser";
 import { main, module } from "./package.json";
 
 export default {
-  input: "index.ts",
+  input: "src/index.ts",
   output: [
     {
       file: main,

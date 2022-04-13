@@ -1,2 +1,4 @@
 node_modules
-index.ts
+src
+rollup.config.js
+tsconfig.json

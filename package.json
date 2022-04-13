@@ -1,6 +1,6 @@
 {
   "name": "vue-with-install",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "with install",
   "main": "dist/vue-with-install.js",
   "module": "dist/vue-with-install.module.js",
@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/zjfcool/vue-with-install.git"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [],
   "author": "zjfcool",
   "license": "ISC",
