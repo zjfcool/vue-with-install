@@ -1,0 +1,32 @@
+{
+  "name": "vue-with-install",
+  "version": "1.0.0",
+  "description": "with install",
+  "main": "dist/vue-with-install.js",
+  "module": "dist/vue-with-install.module.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjfcool/vue-with-install.git"
+  },
+  "keywords": [],
+  "author": "zjfcool",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjfcool/vue-with-install/issues"
+  },
+  "homepage": "https://github.com/zjfcool/vue-with-install#readme",
+  "peerDependencies": {
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "rollup": "^2.70.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  }
+}

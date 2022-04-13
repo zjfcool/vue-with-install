@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+     "outDir": "dist",
+     "declaration": true,
+     "declarationDir": ".",
+     "module": "esnext",
+     "target": "esnext",
+     "moduleResolution": "node"
+    },
+    "include": ["*"],
+    "exclude": ["node_modules","dist"]
+}
